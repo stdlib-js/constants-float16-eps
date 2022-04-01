@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/constants-float16-eps",
+  "version": "0.0.0",
+  "description": "Difference between one and the smallest value greater than one that can be represented as a half-precision floating-point number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float16-eps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "float",
+    "real",
+    "half",
+    "floating-point",
+    "float16",
+    "16bit",
+    "16-bit",
+    "ieee754",
+    "epsilon",
+    "eps",
+    "number"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
