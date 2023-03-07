@@ -30,10 +30,14 @@ limitations under the License.
 
 <!-- <equation class="equation" label="eq:epsilon_float16" align="center" raw="\epsilon = b^{-(p-1)}" alt="Epsilon for a half-precision floating-point number."> -->
 
-<div class="equation" align="center" data-raw-text="\epsilon = b^{-(p-1)}" data-equation="eq:epsilon_float16">
+```math
+\epsilon = b^{-(p-1)}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\epsilon = b^{-(p-1)}" data-equation="eq:epsilon_float16">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@5d87cc7cb2c58aeb732872f89562d2c89571cc8a/lib/node_modules/@stdlib/constants/float16/eps/docs/img/equation_epsilon_float16.svg" alt="Epsilon for a half-precision floating-point number.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,38 +47,30 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float16-eps
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FLOAT16_EPSILON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FLOAT16_EPSILON = require( 'path/to/vendor/umd/constants-float16-eps/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT16_EPSILON;
-})();
-</script>
+var FLOAT16_EPSILON = require( '@stdlib/constants-float16-eps' );
 ```
 
 #### FLOAT16_EPSILON
@@ -96,16 +92,11 @@ var bool = ( FLOAT16_EPSILON === 0.0009765625 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var abs = require( '@stdlib/math-base-special-abs' );
+var maxabs = require( '@stdlib/math-base-special-maxabs' );
+var randu = require( '@stdlib/random-base-randu' );
+var FLOAT16_EPSILON = require( '@stdlib/constants-float16-eps' );
 
 var bool;
 var a;
@@ -128,11 +119,6 @@ for ( i = 0; i < 100; i++ ) {
     bool = isApprox( a, b );
     console.log( '%d %s approximately equal to %d', a, ( bool ) ? 'is' : 'is not', b );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -207,7 +193,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -229,9 +215,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps/tree/umd
+[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps
 
-[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps/tree/umd
+[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
 
 <!-- </related-links> -->
 
