@@ -30,10 +30,14 @@ limitations under the License.
 
 <!-- <equation class="equation" label="eq:epsilon_float16" align="center" raw="\epsilon = b^{-(p-1)}" alt="Epsilon for a half-precision floating-point number."> -->
 
-<div class="equation" align="center" data-raw-text="\epsilon = b^{-(p-1)}" data-equation="eq:epsilon_float16">
+```math
+\epsilon = b^{-(p-1)}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\epsilon = b^{-(p-1)}" data-equation="eq:epsilon_float16">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@5d87cc7cb2c58aeb732872f89562d2c89571cc8a/lib/node_modules/@stdlib/constants/float16/eps/docs/img/equation_epsilon_float16.svg" alt="Epsilon for a half-precision floating-point number.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -189,7 +193,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
