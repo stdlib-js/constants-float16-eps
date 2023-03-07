@@ -56,7 +56,7 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 To use in Observable,
 
 ```javascript
-FLOAT16_EPSILON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@umd/browser.js' )
+FLOAT16_EPSILON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.0.8-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -68,7 +68,7 @@ var FLOAT16_EPSILON = require( 'path/to/vendor/umd/constants-float16-eps/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.0.8-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -107,7 +107,7 @@ var bool = ( FLOAT16_EPSILON === 0.0009765625 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.0.8-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
