@@ -65,6 +65,11 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 ## Usage
 
 ```javascript
+import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-eps/tags). For example,
+
+```javascript
 import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.1.1-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ var bool = ( FLOAT16_EPSILON === 0.0009765625 );
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
 import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.1.1-esm/index.mjs';
+import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@esm/index.mjs';
 
 var bool;
 var a;
