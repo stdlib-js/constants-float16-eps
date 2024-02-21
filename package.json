@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float16-eps",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Difference between one and the smallest value greater than one that can be represented as a half-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -36,10 +36,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/math-base-special-abs": "^0.1.1",
-    "@stdlib/math-base-special-maxabs": "^0.1.0",
-    "@stdlib/math-base-special-pow": "^0.1.0",
-    "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.2.0",
+    "@stdlib/math-base-special-maxabs": "^0.2.0",
+    "@stdlib/math-base-special-pow": "^0.2.0",
+    "@stdlib/random-base-randu": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
