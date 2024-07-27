@@ -65,7 +65,7 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 ## Usage
 
 ```javascript
-import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@deno/mod.js';
+import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.2.2-deno/mod.js';
 ```
 
 #### FLOAT16_EPSILON
@@ -91,7 +91,7 @@ var bool = ( FLOAT16_EPSILON === 0.0009765625 );
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@deno/mod.js';
+import FLOAT16_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-eps@v0.2.2-deno/mod.js';
 
 var bool;
 var a;
