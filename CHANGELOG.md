@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2026-01-29)
 
 <section class="commits">
 
@@ -12,7 +12,8 @@
 
 <details>
 
--   [`2e8998e`](https://github.com/stdlib-js/stdlib/commit/2e8998ee67be12caff9a99df3ba3256c55b167a2) - **chore:** update test messages in `constants/float16` [(#6774)](https://github.com/stdlib-js/stdlib/pull/6774) _(by Harsh)_
+-   [`33941e4`](https://github.com/stdlib-js/stdlib/commit/33941e4d49527ce81311cb4db55b14dc020ae308) - **docs:** clean-up TSDoc example code _(by Philipp Burckhardt)_
+-   [`2e8998e`](https://github.com/stdlib-js/stdlib/commit/2e8998ee67be12caff9a99df3ba3256c55b167a2) - **chore:** update test messages in `constants/float16` [(#6774)](https://github.com/stdlib-js/stdlib/pull/6774) _(by Harsh Yadav)_
 
 </details>
 
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
--   Harsh
+-   Harsh Yadav
+-   Philipp Burckhardt
 
 </section>
 
